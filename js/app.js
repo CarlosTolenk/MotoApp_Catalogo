@@ -1,18 +1,28 @@
-var miApp = angular.module('miApp', ['ngRoute', 'ngAnimate']);
+'use strict';
 
-miApp.config(function($routeProvider) {
-    $routeProvider
-        .when('/', {
-            templateUrl: 'pagina-inicio.html',
-            controller: 'controllerInicio'
-        })
-        .when('/acercaDe', {
-            templateUrl: 'pagina-acercaDe.html',
-            controller: 'controllerAcercaDe'
-        })
-        .when('/contactenos', {
-            templateUrl: 'pagina-contactenos.html',
-            controller: 'controllerContactenos'
-        });
+/* App Module */
+/* se crea el modulo del aplicativo*/
+var carApp = angular.module('carApp', [
+	'ngRoute',
+  'carAppAnimations',
+  'carAppControllers',
+  'carAppServices' // se agrega el servicio creado en services.js
+]);
 
-});
+
+//Se agrega la configuracion de rutas!!
+carApp.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/cars', {
+        templateUrl: 'partials/car-list.html',
+        controller: 'CarListCtrl'
+      }).
+      when('/cars/:carId', {
+        templateUrl: 'partials/car-detail.html',
+        controller: 'CarDetailCtrl'
+      }).
+      otherwise({
+        redirectTo: '/cars'
+      });
+  }]);
