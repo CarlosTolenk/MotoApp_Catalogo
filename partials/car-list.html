@@ -1,24 +1,23 @@
 
   <div class="blog-header">
-        <h1 class="blog-title">Car Cluster 2015</h1>
-        <p class="lead blog-description">Official blog car</p>
+        <h1 class="blog-title">Catalogo De MOTOS</h1>
+        <p class="lead blog-description">Official blog moto</p>
   </div>
   <div class="row">
-    
-    <div class="col-sm-7 blog-main">
-      <!--Body content-->
 
-      <ul class="cars">
-        <li ng-repeat="car in cars | filter:query | orderBy:orderProp"
-            class="thumbnail car-listing">
-          <a href="#/cars/{{car.id}}" class="thumb"><img ng-src="{{car.imageUrl}}"></a>
-          <a href="#/cars/{{car.id}}">{{car.name}}</a>
-          <p>{{car.snippet}}</p>
-        </li>
-      </ul>
+    <div class="col-sm-8 blog-main">
+      <!--Body content-->
+        <ul class="cars">
+          <li ng-repeat="car in cars | filter:query | orderBy:orderProp"
+              class="thumbnail car-listing">
+            <a href="#/cars/{{car.id}}" class="thumb"><img ng-src="{{car.imageUrl}}"></a>
+            <a href="#/cars/{{car.id}}">{{car.name}}</a>
+            <p>{{car.snippet}}</p>
+          </li>
+        </ul>
 
     </div>
-    <div class="col-sm-5 blog-sidebar">
+    <div class="col-sm-4 blog-sidebar">
       <!--Sidebar content-->
 
       <form class="form-horizontal" role="form">
@@ -43,4 +42,3 @@
 
     </div>
   </div>
-

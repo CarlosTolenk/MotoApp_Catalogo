@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "Ducati",
+        "country": "Italian"
+    },
+    "engine": {
+        "gears": "2",
+        "transmission": "Mechanic",
+        "type": "Diesel"
+    },
+    "description": "Se trata de un fabricante italiano que se especializa en la fabricación de motocicletas y motores y es una de las marcas más importantes en el sector comercial y deportivo.",
+    "id": "ducati",
+    "images": [
+        "img/motos/ducati-1.jpg",
+        "img/motos/ducati.jpg",
+        "img/motos/ducati-2.jpg",
+        "img/motos/ducati-3.jpg"
+    ],
+    "name": "Ducati",
+    "sizeAndWeight": {
+        "dimensions": [
+            "180.9 mm (w)",
+            "159.8 mm (h)",
+            "437.4 mm (l)"
+        ],
+        "weight": "264.0 Kg"
+    },
+    "space": {
+        "volume": "120L"
+    }
+}

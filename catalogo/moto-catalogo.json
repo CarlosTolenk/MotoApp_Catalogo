@@ -1,0 +1,38 @@
+[
+
+    {
+        "model": 2015,
+        "id": "yamaha",
+        "imageUrl": "img/motos/yamaha.jpeg",
+        "name": "Yamaha",
+        "snippet": "El placer de tener 2 ruedas"
+    },
+    {
+        "model": 2014,
+        "id": "honda",
+        "imageUrl": "img/motos/honda.jpg",
+        "name": "Honda",
+        "snippet": "Disfruta el poder de las olas, disfruta Honda"
+    },
+    {
+        "model": 2016,
+        "id": "kawasaki",
+        "imageUrl": "img/motos/kawasaki.jpg",
+        "name": "Kawasaki",
+        "snippet": "Esto es una prueba de la mejor moto."
+    },
+    {
+        "model": 2018,
+        "id": "ducati",
+        "imageUrl": "img/motos/ducati.jpg",
+        "name": "Ducati",
+        "snippet": "La hermosura y el poder italiano"
+    },
+    {
+        "model": 2017,
+        "id": "bmw",
+        "imageUrl": "img/motos/bmw.jpg",
+        "name": "BMW",
+        "snippet": "The Navara is all about freedom including freedom of choice."
+    }
+]

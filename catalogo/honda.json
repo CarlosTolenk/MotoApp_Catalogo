@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "Honda",
+        "country": "Japon"
+    },
+    "engine": {
+        "gears": "2",
+        "transmission": "Manual",
+        "type": "Petrol"
+    },
+    "description": "Esta también es una empresa japonesa que igualmente ha destacado en la fabricación de motocicletas y en general múltiples productos para el sector automotriz.",
+    "id": "honda",
+    "images": [
+        "img/motos/honda-1.jpg",
+        "img/motos/honda-2.jpg",
+        "img/motos/honda-3.jpeg",
+        "img/motos/honda-4.jpeg"
+    ],
+    "name": "Honda",
+    "sizeAndWeight": {
+        "dimensions": [
+            "139.5 mm (w)",
+            "155.8 mm (h)",
+            "428.9 mm (l)"
+        ],
+        "weight": "121.0 Kg"
+    },
+    "space": {
+        "volume": "15.5L"
+    }
+}

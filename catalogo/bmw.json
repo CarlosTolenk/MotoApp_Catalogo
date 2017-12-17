@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "BMW",
+        "country": "German"
+    },
+    "engine": {
+        "gears": "2",
+        "transmission": "Mechanic",
+        "type": "Petrol"
+    },
+    "description": "Aunque reconoces al fabricante bávaro por sus coches de lujo, esta compañía también fabrica motocicletas y esta considerado como uno de los fabricantes de gama alta en el mundo.",
+    "id": "ducati",
+    "images": [
+        "img/motos/bmw-1.jpg",
+        "img/motos/bmw.jpg",
+        "img/motos/bmw-2.jpg",
+        "img/motos/bmw-3.jpeg"
+    ],
+    "name": "BMW",
+    "sizeAndWeight": {
+        "dimensions": [
+            "180.9 mm (w)",
+            "159.8 mm (h)",
+            "437.4 mm (l)"
+        ],
+        "weight": "264.0 Kg"
+    },
+    "space": {
+        "volume": "120L"
+    }
+}

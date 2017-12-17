@@ -4,9 +4,9 @@
 /* se crea el modulo del aplicativo*/
 var carApp = angular.module('carApp', [
 	'ngRoute',
-  'carAppAnimations',
+  'motoAppAnimations',
   'carAppControllers',
-  'carAppServices' // se agrega el servicio creado en services.js
+  'motoAppServices' // se agrega el servicio creado en services.js
 ]);
 
 

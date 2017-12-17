@@ -1,0 +1,32 @@
+{
+    "manufacter": {
+        "name": "Kawasaki",
+        "country": "Japan"
+    },
+    "engine": {
+        "gears": "2",
+        "transmission": "Manual",
+        "type": "Diesel"
+    },
+    "description": "También de origen japones, Kawasaki se especializa en la fabricación de motocicletas, plantas industriales, motores y coches todoterreno.",
+    "id": "kawasaki",
+    "images": [
+        "img/motos/kawasaki-1.jpg",
+        "img/motos/kawasaki-2.jpeg",
+        "img/motos/kawasaki-3.png",
+        "img/motos/kawasaki-4.jpeg"
+
+    ],
+    "name": "Kawasaki",
+    "sizeAndWeight": {
+        "dimensions": [
+            "178.9 mm (w)",
+            "159.8 mm (h)",
+            "522.4 mm (l)"
+        ],
+        "weight": "310.0 Kg"
+    },
+    "space": {
+        "volume": "110L"
+    }
+}
